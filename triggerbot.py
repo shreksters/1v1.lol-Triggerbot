@@ -2,7 +2,7 @@
 import pyautogui, win32api, fade, os, threading
 from pynput.keyboard import Key, Listener
 
-_key = ""
+_key = "t"
 keybinds = ["1", "2", "3", "f"] # set these to gun keybinds
 
 def getkey(key):
